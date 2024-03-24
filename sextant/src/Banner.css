@@ -1,4 +1,9 @@
 .Banner {
     background-color: aqua;
-    padding: 1rem;
+    padding: 0.5vw;
+}
+
+.Banner h1 {
+    font-size: 3vw;
+    border: 0;
 }

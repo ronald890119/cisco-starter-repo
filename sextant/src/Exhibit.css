@@ -1,0 +1,22 @@
+.Exhibit {
+    float: left;
+    margin: 0.5vw;
+    text-align: center;
+    background-color: aqua;
+    border: 0.25vw solid aqua;
+    border-radius: 1vw;
+}
+
+.Title {
+    font-weight: bold;
+    font-size: 1.75vw;
+}
+
+.Content {
+    margin: 0.5vw;
+    padding: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+    border: 0.25vw solid black;
+    border-radius: 1vw;
+}
