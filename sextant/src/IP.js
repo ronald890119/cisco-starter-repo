@@ -32,7 +32,7 @@ class IP extends Component {
 
     render() {
         return (
-            <div>{this.state.ip}</div>
+            <div className="IP">{this.state.ip}</div>
         );
     }
 }
