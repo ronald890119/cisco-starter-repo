@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './Banner';
+import Connector from './Connector';
 import Exhibit from './Exhibit';
 import IP from './IP';
 
@@ -14,6 +15,9 @@ function App() {
       </Exhibit>
       <Exhibit title="IPv6 Address">
         <IP IPv4={false}/>
+      </Exhibit>
+      <Exhibit title="Latency">
+        <Connector/>
       </Exhibit>
     </div>
   );
